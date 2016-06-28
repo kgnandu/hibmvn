@@ -6,23 +6,23 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
+/**
+ * @author whynot
+ *
+ */
 public class HibernateUtils {
 
 	private static SessionFactory sessionFactory;
 	
 	static {
-		Configuration conf = new Configuration().configure();
-		
-		// A SessionFactory is set up once for an application!
-		final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
-				.configure() // configures settings from hibernate.cfg.xml
+		//This will read from the hibernate.cfg.xml file at the root of the classpath
+		StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+				.configure() 
 				.build();
 		try {
 			sessionFactory = new MetadataSources( registry ).buildMetadata().buildSessionFactory();
 		}
 		catch (Exception e) {
-			// The registry would be destroyed by the SessionFactory, but we had trouble building the SessionFactory
-			// so destroy it manually.
 			e.printStackTrace();
 			StandardServiceRegistryBuilder.destroy( registry );
 		}
