@@ -1,0 +1,35 @@
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1142, SQLState: 42000
+ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - INSERT command denied to user 'appuser'@'localhost' for table 'User'
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'protein_tracker.User' doesn't exist
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Field 'id' doesn't have a default value
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+WARN main org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+WARN main org.hibernate.orm.connections - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
