@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
-	<!-- Provided by Tomcat, but needed for compilation -->
+		<!-- Provided by Tomcat, but needed for compilation -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-web-api</artifactId>
@@ -14,7 +14,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- For Jersey -->
-			<!-- if your container implements Servlet API older than 3.0, use "jersey-container-servlet-core" -->
+		<!-- if your container implements Servlet API older than 3.0, use "jersey-container-servlet-core" -->
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
@@ -102,11 +102,8 @@
 			<version>2.2</version>
 		</dependency>
 
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.9.4</version>
-		</dependency>
+		<!-- <dependency> <groupId>joda-time</groupId> <artifactId>joda-time</artifactId> 
+			<version>2.9.4</version> </dependency> -->
 
 
 		<!-- for JPA, use hibernate-entitymanager instead of hibernate-core -->
@@ -114,14 +111,6 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.2.0.Final</version>
-			<!--
-			<exclusions>
-				<exclusion>
-					<artifactId>jboss-logging</artifactId>
-					<groupId>org.jboss.logging</groupId>
-				</exclusion>
-			</exclusions>
-			-->
 		</dependency>
 
 		<dependency>
@@ -181,7 +170,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
+					<!-- <warSourceDirectory>WebContent</warSourceDirectory> -->
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
